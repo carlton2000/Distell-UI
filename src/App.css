@@ -1,0 +1,543 @@
+body{
+  background: rgb(215,215,215);
+background: radial-gradient(circle, rgba(215,215,215,1) 81%, rgba(195,195,195,1) 100%);
+}
+.App {
+  text-align: center;
+  margin: auto;
+  max-width: 60vh;
+  /* background: rgb(48,40,205);
+  background: linear-gradient(0deg, rgba(48,40,205,1) 11%, rgba(49,41,206,1) 21%, rgba(86,47,194,1) 32%); */
+  background-image: url(images/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.align-content{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* .app-align{
+  margin: auto;
+  height: 100vh;
+  display: grid;
+  grid-template:
+      "Header" 15%
+      "Section" 60%
+      "Navigation" 10%
+      "Footer" 15% / 1fr;
+  justify-items: center;
+} */
+
+.voucher-button a{
+ text-decoration: none;
+ color: #000;
+}
+.voucher-button a:hover{
+  
+  color: #000;
+ }
+
+.header-heading{
+  font-family: 'Bigelow Rules';
+  font-size: 32px;
+  color: #fff;
+  margin: auto;
+
+}
+.head-image{
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+.head-image .App-logo{
+  height: 250px;
+  width: 222px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.head-title{
+  /* height: 127px; */
+  max-width: 100%;
+  /* max-height: 100%; */
+  /* width: 364px; */
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding: 20px;
+} */
+#root .date-border{
+  border: thin solid yellow;
+  box-shadow: 0 0 3px 2px yellow;
+  width: 88%;
+  max-width: 100%;
+  align-content: center;
+  margin: 5px auto;
+}
+.date-title{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 7px 0px;
+}
+
+.yellow-broad{
+  color: #f1de6c;
+  font-size: 18px;
+  font-weight: 700;
+   margin: 7px 0px;
+}
+/* .yellow-broad-below{
+  display: inline-block;
+} */
+
+#root .react-date-picker__wrapper{
+  border: none;
+  height: 50px;
+  padding-bottom: 14px;
+}
+
+#root .react-date-picker__inputGroup__input{
+  background-color: #fff;
+  min-width: 4.54em;
+  text-align: center;
+  border-radius: 5px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+#root .react-date-picker__inputGroup__divider {
+  padding: 3px 3px;
+  white-space: pre;
+  display: none;
+}
+
+#root .react-date-picker__wrapper button{
+display: none;
+}
+
+.continue{
+  background-color:#f5e78c;
+  border: none;
+  width: 117px;
+  height: 28px;
+  max-width: 100%;
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.tees-cees{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tees-cees p{
+  padding-top: 22px;
+  margin: 0px 0px 0px;
+  padding-bottom: 22px;
+}
+
+.footer-logo{
+  height: 50px;
+  width: 106px;
+  max-width: 100%;
+}
+
+/* Welcome Home CSS */
+
+/* Voucher Page CSS */
+.voucher-id #page {
+  grid-template:
+                "head" 21%
+                "main" 27%
+                "nav" 2%
+                "foot" 50% / 1fr;
+                 
+}
+.inline-voucher{
+  padding-bottom: 5px;
+}
+.inline-voucher input{
+  /* display: flex; */
+  margin-right: 9px;
+  width: 138px;
+  max-width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.voucher-id .date-border{
+  padding-bottom: 10px;
+}
+/* .voucher-button{
+  padding-top: 11px;
+} */
+
+.backg-pour .row{
+  margin-top: 64%;
+}
+.backg-pour{
+  /* background-image: url(images/lady-pour.png); */
+  background-position: center;
+  background-size: cover;
+  /* height: 56vh;
+  width: 60vh; */
+}
+
+/* Video Page CSS */
+.video-id .app-align{
+  height: 100vh;
+}
+
+.display-image{
+  height: 260px;
+  width: 312px;
+  max-width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.video-id #page {
+  grid-template:
+      "head" 23%
+      "main" 51%
+      "nav" 10%
+      "foot" 15% / 1fr;
+}
+
+/* Modal css */
+.modal-fullscreen .modal-content {
+  background-color: unset;
+}
+.modal-content .modal-header{
+  border: none;
+}
+
+.modal-content .modal-footer{
+  border: none;
+}
+
+.modal-content .modal-buttons{
+  margin: 0 auto;
+  justify-content: center;
+  border: none;
+}
+
+/* Display Rewards */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.4); */
+}
+
+.modal[data-type] {
+  display: contents;
+}
+
+#modalMessage{
+  font-size: 20px;
+  color: #fff;
+}
+
+.modalDialog {
+  margin: auto;
+  padding: 25px;
+  /* background-color: white; */
+  text-align: center;
+  position: fixed;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grantButtons,
+.rewardButtons {
+  display: none;
+}
+
+.modal[data-type='grant'] .grantButtons,
+.modal[data-type='reward'] .rewardButtons {
+  display: block;
+}
+
+.modal input[type="button"] {
+  background-color:#f5e78c;
+  border: none;
+  width: 178px;
+  height: 28px;
+  max-width: 100%;
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+/* Journey 2 Video */
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.4); */
+}
+
+.modal2[data-type] {
+  display: contents;
+}
+
+#modalMessage{
+  font-size: 20px;
+  color: #fff;
+  opacity: 0;
+}
+
+.modalDialog {
+  margin: auto;
+  padding: 25px;
+  /* background-color: white; */
+  text-align: center;
+  position: fixed;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grantButtons,
+.rewardButtons {
+  display: none;
+}
+
+.modal2[data-type='grant'] .grantButtons,
+.modal2[data-type='reward'] .rewardButtons {
+  display: block;
+}
+
+.modal2 input[type="button"] {
+  background-color:#f5e78c;
+  border: none;
+  width: 178px;
+  height: 28px;
+  max-width: 100%;
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+/* Continue Css */
+
+.four-boxes{
+  height: 218px;
+  width: 312px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.continue-id #page {
+  grid-template:
+      "head" 23%
+      "main" 51%
+      "nav" 10%
+      "foot" 15% / 1fr;
+}
+
+/* Home Test Css */
+
+.input-year {
+  margin-bottom: 10px;
+  width: 81px;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 800;
+  color: #000;
+}
+
+
+.date-picker select{
+  height: 39px;
+  width: 76px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.date-picker label:first-child{
+margin-right: 10px;
+}
+.date-picker label:nth-child(2){
+  margin-right: 10px;
+}
+
+.date-picker label select option:nth-child(1){
+  display: none;
+}  
+
+.date-picker span{
+  display: none;
+}
+
+#page {
+  display: grid;
+  margin: auto;
+  max-width: 720px;
+  height: 100vh;
+  grid-template:
+                  "head" 15%
+                  "main" 60%
+                  "nav" 10%
+                  "foot" 15% / 1fr;
+                 
+}
+
+header {
+  grid-area: head / head / head / head;
+  justify-self: stretch;
+}
+
+main {
+  grid-area: main ;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  grid-area: Navigation / Navigation / Navigation / Navigation;
+} 
+
+footer {
+  grid-area: foot / foot/ foot / foot;
+  justify-self: stretch;
+  padding-top: 34px;
+}
+
+.display-age{
+  color: #fff;
+  display: none;
+}
+
+.hometest-id #error {
+  font-size: 17px;
+  color: red;
+  font-weight: 600;
+}
+
+/* Cell-Phone Css */
+.cell-id #page {
+  grid-template:
+  "head" 25%
+  "main" 45%
+  "nav" 15%
+  "foot" 15% / 1fr;
+}
+
+.cell-id .cell-phone{
+  padding: 9px 0px 15px 0px;
+}
+
+/* Journey CSS */
+.journey-id #page {
+  grid-template:
+  "head" 20%
+  "main" 45%
+  "nav" 20%
+  "foot" 15% / 1fr;
+}
+.journey2-id #page {
+  grid-template:
+  "head" 25%
+  "main" 24%
+  "nav" 1%
+  "foot" 50% / 1fr;
+}
+.journey3-id #page {
+  grid-template:
+  "head" 20%
+  "main" 50%
+  "nav" 15%
+  "foot" 15% / 1fr;
+}
+.form-check{
+  text-align: left;
+}
+
+.form-check .questions-radio{
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.form-check input[type="radio"] {
+  border: thin solid #FF10F0;
+  box-shadow: 0 0 3px 2px #FF10F0;
+  background-color: unset;
+}
+
+
+ /* Loading Spinner */
+
+ @keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Blue */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.spinner-id #page{
+  grid-template:
+  "head" 23%
+  "main" 51%
+  "nav" 10%
+  "foot" 16% / 1fr;
+}
+
+/* Error Message*/
+
+.error-id .error-content{
+  padding-top: 55px;
+}
+.error-id .common{
+  font-size: 94px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.error-id .not-found{
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+}
+
+.error-id .continue{
+  width: 160px;
+}
+
+
