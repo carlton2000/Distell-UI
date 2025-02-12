@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/%7BDistell-UI%20%7D/static/css/main.e02aae04.css",
-    "main.js": "/%7BDistell-UI%20%7D/static/js/main.c8b7e0b7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/%7BDistell-UI%20%7D/static/js/787.28cb0dcd.chunk.js",
-    "static/media/four-boxes.png": "/%7BDistell-UI%20%7D/static/media/four-boxes.41175266760d931be948.png",
-    "static/media/bg1.jpg": "/%7BDistell-UI%20%7D/static/media/bg1.6589befa808c0d97d76b.jpg",
-    "static/media/free-wifi (4).png": "/%7BDistell-UI%20%7D/static/media/free-wifi (4).dc913c37817bc01df313.png",
-    "static/media/bottle-3.png": "/%7BDistell-UI%20%7D/static/media/bottle-3.d3b4c4e5332888282464.png",
-    "static/media/4street-logo.png": "/%7BDistell-UI%20%7D/static/media/4street-logo.07775ed1d06b4a1f0ce0.png",
-    "static/media/hash-no.png": "/%7BDistell-UI%20%7D/static/media/hash-no.4c027b61d8d2e70508bf.png",
-    "index.html": "/%7BDistell-UI%20%7D/index.html",
-    "main.e02aae04.css.map": "/%7BDistell-UI%20%7D/static/css/main.e02aae04.css.map",
-    "main.c8b7e0b7.js.map": "/%7BDistell-UI%20%7D/static/js/main.c8b7e0b7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/%7BDistell-UI%20%7D/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Distell-UI/static/css/main.131b1f30.css",
+    "main.js": "/Distell-UI/static/js/main.0f0029f4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Distell-UI/static/js/787.28cb0dcd.chunk.js",
+    "static/media/four-boxes.png": "/Distell-UI/static/media/four-boxes.41175266760d931be948.png",
+    "static/media/bg1.jpg": "/Distell-UI/static/media/bg1.6589befa808c0d97d76b.jpg",
+    "static/media/free-wifi (4).png": "/Distell-UI/static/media/free-wifi (4).dc913c37817bc01df313.png",
+    "static/media/bottle-3.png": "/Distell-UI/static/media/bottle-3.d3b4c4e5332888282464.png",
+    "static/media/4street-logo.png": "/Distell-UI/static/media/4street-logo.07775ed1d06b4a1f0ce0.png",
+    "static/media/hash-no.png": "/Distell-UI/static/media/hash-no.4c027b61d8d2e70508bf.png",
+    "index.html": "/Distell-UI/index.html",
+    "main.131b1f30.css.map": "/Distell-UI/static/css/main.131b1f30.css.map",
+    "main.0f0029f4.js.map": "/Distell-UI/static/js/main.0f0029f4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Distell-UI/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e02aae04.css",
-    "static/js/main.c8b7e0b7.js"
+    "static/css/main.131b1f30.css",
+    "static/js/main.0f0029f4.js"
   ]
 }
